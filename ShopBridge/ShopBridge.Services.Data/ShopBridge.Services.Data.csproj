@@ -5,7 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Providers\" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ShopBridge.Data.Core\ShopBridge.Data.Core.csproj" />
+    <ProjectReference Include="..\ShopBridge.Services.Core\ShopBridge.Services.Core.csproj" />
   </ItemGroup>
 
 </Project>

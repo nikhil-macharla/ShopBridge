@@ -6,5 +6,6 @@
     public static class TableConstants
     {
         public static readonly string Item = "item";
+        public static readonly string User = "users";
     }
 }
